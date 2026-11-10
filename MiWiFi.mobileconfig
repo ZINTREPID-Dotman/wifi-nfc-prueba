@@ -6,42 +6,58 @@
     <key>PayloadContent</key>
     <array>
         <dict>
-<key>PayloadType</key>
-<string>Configuration</string>
-            <key>PayloadType</key>
-            <string>com.apple.wifi.managed</string>
-
-            <key>SSID_STR</key>
-            <string>Mi WiFi</string>
-
             <key>AutoJoin</key>
             <true/>
 
             <key>EncryptionType</key>
             <string>WPA</string>
 
+            <key>HIDDEN_NETWORK</key>
+            <false/>
+
             <key>Password</key>
-            <string>TQ3EcGsYxs</string>
+            <string>CAMBIA_ESTA_CONTRASEÑA</string>
+
+            <key>PayloadDisplayName</key>
+            <string>Wi-Fi Mi Casa</string>
 
             <key>PayloadIdentifier</key>
-            <string>com.prueba.wifi.network</string>
+            <string>com.zintrepid.wifi.payload</string>
+
+            <key>PayloadType</key>
+            <string>com.apple.wifi.managed</string>
 
             <key>PayloadUUID</key>
-            <string>11111111-2222-4333-8444-555555555555</string>
+            <string>94C487E0-D6F8-41E3-B66D-A89994E6919B</string>
 
             <key>PayloadVersion</key>
             <integer>1</integer>
+
+            <key>SSID_STR</key>
+            <string>Mi WiFi</string>
         </dict>
     </array>
 
+    <key>PayloadDescription</key>
+    <string>Configuración de Wi-Fi para invitados</string>
+
     <key>PayloadDisplayName</key>
-    <string>Mi WiFi</string>
+    <string>Wi-Fi Mi Casa</string>
 
     <key>PayloadIdentifier</key>
-    <string>com.prueba.wifi.profile</string>
+    <string>com.zintrepid.wifi</string>
+
+    <key>PayloadOrganization</key>
+    <string>Mi Casa</string>
+
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
 
     <key>PayloadUUID</key>
-    <string>AAAAAAAA-BBBB-4CCC-8DDD-EEEEEEEEEEEE</string>
+    <string>71E9B0F7-02F8-4AEA-B365-B381D872909A</string>
 
     <key>PayloadVersion</key>
     <integer>1</integer>
