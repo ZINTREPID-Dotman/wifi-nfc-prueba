@@ -6,6 +6,8 @@
     <key>PayloadContent</key>
     <array>
         <dict>
+<key>PayloadType</key>
+<string>Configuration</string>
             <key>PayloadType</key>
             <string>com.apple.wifi.managed</string>
 
